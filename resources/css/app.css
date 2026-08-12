@@ -4,6 +4,7 @@
 
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../node_modules/@inlayphp/*/src/**/*.{ts,tsx}';
 @source '../../../packages/*/frontend/src/**/*.{ts,tsx}';
 @source '../../../packages/*/react/src/**/*.{ts,tsx}';
 
