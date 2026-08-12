@@ -1391,16 +1391,16 @@
         },
         {
             "name": "inlayphp/inlay",
-            "version": "v0.3.1",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/inlay.git",
-                "reference": "e029559055b9a1a9778c3f34a5f58102e7686162"
+                "reference": "583950c448121bf6a034338f91a88ee84408eb36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/inlay/zipball/e029559055b9a1a9778c3f34a5f58102e7686162",
-                "reference": "e029559055b9a1a9778c3f34a5f58102e7686162",
+                "url": "https://api.github.com/repos/InlayPHP/inlay/zipball/583950c448121bf6a034338f91a88ee84408eb36",
+                "reference": "583950c448121bf6a034338f91a88ee84408eb36",
                 "shasum": ""
             },
             "require": {
@@ -1467,9 +1467,9 @@
             "description": "PHP-first administration panels and UI components for Laravel and Inertia.",
             "support": {
                 "issues": "https://github.com/InlayPHP/inlay/issues",
-                "source": "https://github.com/InlayPHP/inlay/tree/v0.3.1"
+                "source": "https://github.com/InlayPHP/inlay/tree/v0.3.3"
             },
-            "time": "2026-08-12T13:59:20+00:00"
+            "time": "2026-08-12T16:11:22+00:00"
         },
         {
             "name": "inlayphp/media",

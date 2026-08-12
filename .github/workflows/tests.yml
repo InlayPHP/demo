@@ -48,4 +48,5 @@ jobs:
       - run: pnpm run format:check
       - run: pnpm run types:check
       - run: pnpm run build
+      - run: php artisan inlay:doctor --production
       - run: composer test

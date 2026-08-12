@@ -18,6 +18,7 @@ php artisan inlay:install --panels
 php artisan migrate
 php artisan inlay:make-user
 pnpm run build
+php artisan inlay:doctor --production
 ```
 
 The default preset provides the `/admin` panel, Inlay-owned login and logout,
@@ -69,7 +70,27 @@ pnpm run lint:check
 pnpm run format:check
 pnpm run types:check
 pnpm run build
+php artisan inlay:doctor --production
 ```
 
 GitHub Actions repeats the full install, migration, seed, backend tests, type
-checks, and production build from a clean checkout.
+checks, production build, and compiled Inlay CSS verification from a clean
+checkout.
+
+## Laravel Cloud
+
+The demo consumes only published Packagist and npm packages, so it can deploy
+from this repository without the Inlay monorepo. Commit both lockfiles and run
+the normal production installation and build commands:
+
+```bash
+composer install --no-interaction --prefer-dist --optimize-autoloader
+pnpm install --frozen-lockfile
+pnpm run build
+php artisan inlay:doctor --production
+php artisan migrate --force
+```
+
+Configure `INLAY_MEDIA_DISK` with persistent or object storage in production.
+The application filesystem may be replaced between Cloud deployments and must
+not be treated as durable storage for Media Manager uploads.
