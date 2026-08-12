@@ -18,4 +18,13 @@ class InlayPackagesTest extends TestCase
         $this->assertTrue(class_exists(\Inlay\Resources\Resource::class));
         $this->assertTrue(class_exists(ValidationRunner::class));
     }
+
+    public function test_media_migration_uses_a_mysql_safe_composite_key(): void
+    {
+        $migration = file_get_contents(database_path('migrations/2026_08_12_103953_create_inlay_media_tables.php'));
+
+        $this->assertStringContainsString('$table->string(\'disk\', 50);', $migration);
+        $this->assertStringContainsString('$table->string(\'path\', 500);', $migration);
+        $this->assertStringNotContainsString('$table->string(\'path\', 1024);', $migration);
+    }
 }
