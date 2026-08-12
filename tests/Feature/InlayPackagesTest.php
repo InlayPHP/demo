@@ -23,6 +23,8 @@ class InlayPackagesTest extends TestCase
     {
         $migration = file_get_contents(database_path('migrations/2026_08_12_103953_create_inlay_media_tables.php'));
 
+        $this->assertStringContainsString("if (! Schema::hasTable('inlay_media_folders'))", $migration);
+        $this->assertStringContainsString("if (! Schema::hasTable('inlay_media_assets'))", $migration);
         $this->assertStringContainsString('$table->string(\'disk\', 50);', $migration);
         $this->assertStringContainsString('$table->string(\'path\', 500);', $migration);
         $this->assertStringNotContainsString('$table->string(\'path\', 1024);', $migration);
