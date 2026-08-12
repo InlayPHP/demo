@@ -1,0 +1,75 @@
+# Inlay demo
+
+The official consumer demo for Inlay: Laravel 13, Inertia 3, React, and the
+public `inlayphp/inlay` package.
+
+This repository deliberately has no Composer VCS repositories, monorepo path
+packages, or local npm links. Composer installs Inlay from Packagist and pnpm
+installs every `@inlayphp/*` renderer from npm, exactly like an application
+created outside the Inlay monorepo.
+
+## What the installer gives an application
+
+Start with an existing Laravel application using Inertia 3 and React:
+
+```bash
+composer require inlayphp/inlay:"^0.3"
+php artisan inlay:install --panels
+php artisan migrate
+php artisan inlay:make-user
+pnpm run build
+```
+
+The default preset provides the `/admin` panel, Inlay-owned login and logout,
+account profile and password screens, a User resource with create/edit/delete,
+the dashboard shell, theming, and the Media Manager. The generated application
+code remains editable; package code stays in `vendor/` and `node_modules/`.
+
+The public demo adds two standalone examples outside the panel:
+
+- `/demo/forms` — a server-authored Inlay form
+- `/demo/tables` — a server-driven Inlay table
+
+The landing page links to those examples, the complete panel, and the Inlay
+source repository. CMS packages are intentionally excluded.
+
+## Demo login
+
+The database seeder creates one verified administrator:
+
+```text
+Email: demo@inlayphp.com
+Password: password
+```
+
+Override `DEMO_USER_NAME`, `DEMO_USER_EMAIL`, and `DEMO_USER_PASSWORD` in the
+deployment environment. Do not use the public demo password for a real panel.
+
+## Local setup
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+corepack enable
+pnpm install --frozen-lockfile
+pnpm run build
+php artisan serve
+```
+
+Open `http://127.0.0.1:8000`.
+
+## Verification
+
+```bash
+composer validate --strict
+composer test
+pnpm run lint:check
+pnpm run format:check
+pnpm run types:check
+pnpm run build
+```
+
+GitHub Actions repeats the full install, migration, seed, backend tests, type
+checks, and production build from a clean checkout.

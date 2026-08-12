@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/alan/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Users/alan/Documents/inertia-ui/demo/artisan",
+                "boost:mcp"
+            ]
+        }
+    }
+}
