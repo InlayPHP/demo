@@ -3,6 +3,8 @@
 The official consumer demo for Inlay: Laravel 13, Inertia 3, React, and the
 public `inlayphp/inlay` package.
 
+**Live demo:** [inlay-demo.laravel.cloud](https://inlay-demo.laravel.cloud/)
+
 This repository deliberately has no Composer VCS repositories, monorepo path
 packages, or local npm links. Composer installs Inlay from Packagist and pnpm
 installs every `@inlayphp/*` renderer from npm, exactly like an application
