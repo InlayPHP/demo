@@ -24,14 +24,23 @@ php artisan inlay:doctor --production
 ```
 
 The default preset provides the `/admin` panel, Inlay-owned login and logout,
-account profile and password screens, a User resource with create/edit/delete,
-the dashboard shell, theming, and the Media Manager. The generated application
-code remains editable; package code stays in `vendor/` and `node_modules/`.
+account profile and password screens, the server-authored dashboard widgets, a
+User resource with create/edit/delete, theming, and the Media Manager. The
+generated application code remains editable; package code stays in `vendor/`
+and `node_modules/`.
+
+This demo also registers a small Blog resource at `/admin/blogs`. Its create and
+edit screens use the Forms package, its list screen uses the Tables package, and
+its centralized `BlogRules` class keeps validation in application code. It is a
+compact example of the workflow a real Laravel resource can grow into.
 
 The public demo adds two standalone examples outside the panel:
 
 - `/demo/forms` — a server-authored Inlay form
 - `/demo/tables` — a server-driven Inlay table
+
+Those package examples, together with the GitHub source link, are grouped under
+**Package demos** in the panel navigation and open in a new browser tab.
 
 The landing page links to those examples, the complete panel, and the Inlay
 source repository. CMS packages are intentionally excluded.

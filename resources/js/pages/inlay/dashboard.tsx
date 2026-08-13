@@ -1,14 +1,9 @@
 import { Head, Link, usePage } from '@inertiajs/react';
-import {
-    ArrowUpRight,
-    Braces,
-    Github,
-    Images,
-    Settings2,
-    Table2,
-    Users,
-} from 'lucide-react';
+import { WidgetDashboard } from '@inlayphp/widgets-react';
+import type { WidgetDashboardResource } from '@inlayphp/widgets-react';
+import { ArrowRight, Images, Newspaper, Settings2, Users } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
+import { inlayIcons } from '@/components/inlay-icons';
 import { InlayLogo } from '@/components/inlay-logo';
 import InlayPanelLayout from '@/layouts/inlay-panel-layout';
 import type { User } from '@/types';
@@ -18,7 +13,6 @@ const destinations: Array<{
     href: string;
     icon: LucideIcon;
     title: string;
-    external?: boolean;
 }> = [
     {
         title: 'Users',
@@ -28,20 +22,11 @@ const destinations: Array<{
         icon: Users,
     },
     {
-        title: 'Forms',
+        title: 'Blog posts',
         description:
-            'Explore schema-driven fields, validation, layout, and submission.',
-        href: '/demo/forms',
-        icon: Braces,
-        external: true,
-    },
-    {
-        title: 'Tables',
-        description:
-            'Try server-side search, sorting, filtering, pagination, and actions.',
-        href: '/demo/tables',
-        icon: Table2,
-        external: true,
+            'Create, edit, publish, and search content with a complete resource.',
+        href: '/admin/blogs',
+        icon: Newspaper,
     },
     {
         title: 'Media library',
@@ -56,18 +41,13 @@ const destinations: Array<{
         href: '/admin/settings/account',
         icon: Settings2,
     },
-    {
-        title: 'Source code',
-        description:
-            'Inspect every PHP package, React adapter, test, and example.',
-        href: 'https://github.com/InlayPHP/inlay',
-        icon: Github,
-        external: true,
-    },
 ];
 
 export default function Dashboard() {
-    const { auth } = usePage<{ auth: { user: User } }>().props;
+    const { auth, inlayWidgets } = usePage<{
+        auth: { user: User };
+        inlayWidgets: WidgetDashboardResource;
+    }>().props;
 
     return (
         <InlayPanelLayout>
@@ -82,9 +62,9 @@ export default function Dashboard() {
                             Welcome, {auth.user.name}
                         </h1>
                         <p className="mt-2 max-w-2xl text-sm leading-6 text-(--inlay-muted)">
-                            Manage users, account settings, and media from the
-                            complete Inlay administration experience, or open a
-                            standalone package demo below.
+                            Manage users, blog posts, account settings, and
+                            media from one Laravel panel. The widgets below are
+                            resolved on the server.
                         </p>
                     </div>
                     <span className="inline-flex w-fit items-center gap-2 rounded-full bg-(--inlay-success-surface) px-3 py-1.5 text-sm font-medium text-(--inlay-success)">
@@ -93,17 +73,26 @@ export default function Dashboard() {
                     </span>
                 </header>
 
-                <section className="grid gap-4 md:grid-cols-2">
-                    {destinations.map(
-                        ({
-                            description,
-                            external,
-                            href,
-                            icon: Icon,
-                            title,
-                        }) => {
-                            const content = (
-                                <>
+                <WidgetDashboard icons={inlayIcons} resource={inlayWidgets} />
+
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-lg font-semibold">
+                            Manage the demo
+                        </h2>
+                        <p className="mt-1 text-sm text-(--inlay-muted)">
+                            Resources and account tools use the same panel
+                            contracts.
+                        </p>
+                    </div>
+                    <div className="grid gap-4 md:grid-cols-2">
+                        {destinations.map(
+                            ({ description, href, icon: Icon, title }) => (
+                                <Link
+                                    className="block rounded-(--inlay-radius) border border-(--inlay-border) bg-(--inlay-surface) p-5 shadow-xs transition hover:border-(--inlay-accent)/35 hover:bg-(--inlay-hover) focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--inlay-accent) sm:p-6"
+                                    href={href}
+                                    key={title}
+                                >
                                     <div className="flex items-start justify-between gap-4">
                                         <span className="flex size-10 items-center justify-center rounded-(--inlay-radius) bg-(--inlay-accent)/10 text-(--inlay-accent)">
                                             <Icon
@@ -112,7 +101,7 @@ export default function Dashboard() {
                                                 strokeWidth={1.8}
                                             />
                                         </span>
-                                        <ArrowUpRight
+                                        <ArrowRight
                                             aria-hidden="true"
                                             className="size-4 text-(--inlay-muted)"
                                             strokeWidth={1.8}
@@ -126,32 +115,10 @@ export default function Dashboard() {
                                             {description}
                                         </p>
                                     </div>
-                                </>
-                            );
-                            const className =
-                                'block rounded-(--inlay-radius) border border-(--inlay-border) bg-(--inlay-surface) p-5 shadow-xs transition hover:border-(--inlay-accent)/35 hover:bg-(--inlay-hover) focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--inlay-accent) sm:p-6';
-
-                            return external ? (
-                                <a
-                                    className={className}
-                                    href={href}
-                                    key={title}
-                                    rel="noreferrer"
-                                    target="_blank"
-                                >
-                                    {content}
-                                </a>
-                            ) : (
-                                <Link
-                                    className={className}
-                                    href={href}
-                                    key={title}
-                                >
-                                    {content}
                                 </Link>
-                            );
-                        },
-                    )}
+                            ),
+                        )}
+                    </div>
                 </section>
 
                 <section className="rounded-(--inlay-radius) border border-(--inlay-border) bg-(--inlay-surface-muted) p-6 sm:p-8">
@@ -163,9 +130,9 @@ export default function Dashboard() {
                             </h2>
                             <p className="mt-1 text-sm leading-6 text-(--inlay-muted)">
                                 Brand, theme, navigation, authentication,
-                                account settings, and resources are registered
-                                from Laravel while React renders the package
-                                contracts.
+                                account settings, widgets, and resources are
+                                registered from Laravel while React renders the
+                                package contracts.
                             </p>
                         </div>
                     </div>

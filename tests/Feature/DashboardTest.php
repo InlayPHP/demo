@@ -29,7 +29,14 @@ class DashboardTest extends TestCase
                 ->where('inlayPanel.brandName', 'Inlay Demo')
                 ->where('inlayPanel.path', '/admin')
                 ->where('inlayPage.type', 'dashboard')
-                ->where('inlayWidgets.contract', 'inlay.widget-dashboard.v1'));
+                ->where('inlayWidgets.contract', 'inlay.widget-dashboard.v1')
+                ->where('inlayWidgets.widgets', function ($widgets): bool {
+                    return collect($widgets)->pluck('name')->all() === [
+                        'overview',
+                        'content-activity',
+                        'recent-posts',
+                    ];
+                }));
     }
 
     public function test_media_manager_is_part_of_the_default_panel()

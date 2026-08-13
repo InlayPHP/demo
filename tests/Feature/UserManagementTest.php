@@ -12,7 +12,7 @@ class UserManagementTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_panel_navigation_keeps_standalone_demos_in_new_tabs(): void
+    public function test_panel_navigation_groups_standalone_demos_in_new_tabs(): void
     {
         $this->actingAs(User::factory()->create())
             ->get(route('inlay.admin.dashboard'))
@@ -21,16 +21,20 @@ class UserManagementTest extends TestCase
                 ->where('inlayPanel.navigationItems', function ($items): bool {
                     $items = collect($items)->keyBy('name');
 
-                    return $items['forms-demo']['openInNewTab'] === true
-                        && $items['tables-demo']['openInNewTab'] === true
-                        && $items['account-settings']['url'] === '/admin/settings/account';
+                    return $items['account-settings']['url'] === '/admin/settings/account';
                 })
                 ->where('inlayPanel.navigationGroups', function ($groups): bool {
+                    $examples = collect($groups)->firstWhere('name', 'examples');
+                    $items = collect($examples['items'] ?? [])->keyBy('name');
                     $resources = collect($groups)->firstWhere('name', 'resources');
 
-                    return collect($resources['items'] ?? [])
-                        ->contains(fn (array $item): bool => $item['name'] === 'resource-users'
-                            && $item['url'] === '/admin/users');
+                    return $items['forms-demo']['openInNewTab'] === true
+                        && $items['tables-demo']['openInNewTab'] === true
+                        && $items['source']['openInNewTab'] === true
+                        && collect($resources['items'] ?? [])->contains(fn (array $item): bool => $item['name'] === 'resource-users'
+                            && $item['url'] === '/admin/users')
+                        && collect($resources['items'] ?? [])->contains(fn (array $item): bool => $item['name'] === 'resource-blogs'
+                            && $item['url'] === '/admin/blogs');
                 }));
     }
 

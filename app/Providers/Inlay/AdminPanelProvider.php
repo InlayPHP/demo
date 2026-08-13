@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace App\Providers\Inlay;
 
+use App\Inlay\Resources\BlogResource;
 use App\Inlay\Resources\UserResource;
+use App\Inlay\Widgets\AdminDashboardWidgets;
 use Inlay\MediaManager\MediaManagerPlugin;
+use Inlay\NavigationGroup;
 use Inlay\NavigationItem;
 use Inlay\Panel;
 use Inlay\PanelProvider;
@@ -41,17 +44,27 @@ final class AdminPanelProvider extends PanelProvider
             ->accountSettings()
             ->resources([
                 UserResource::class,
+                BlogResource::class,
+            ])
+            ->widget(AdminDashboardWidgets::class)
+            ->navigationGroups([
+                NavigationGroup::make('examples')
+                    ->label('Package demos')
+                    ->icon('braces')
+                    ->sort(80),
             ])
             ->navigationItems([
                 NavigationItem::make('forms-demo')
                     ->label('Forms demo')
                     ->url('/demo/forms', true)
                     ->icon('braces')
+                    ->group('examples')
                     ->sort(10),
                 NavigationItem::make('tables-demo')
                     ->label('Tables demo')
                     ->url('/demo/tables', true)
                     ->icon('table')
+                    ->group('examples')
                     ->sort(20),
                 NavigationItem::make('account-settings')
                     ->label('My account')
@@ -62,6 +75,7 @@ final class AdminPanelProvider extends PanelProvider
                     ->label('GitHub')
                     ->url('https://github.com/InlayPHP/inlay', true)
                     ->icon('github')
+                    ->group('examples')
                     ->sort(30),
             ])
             ->plugin(MediaManagerPlugin::make());
