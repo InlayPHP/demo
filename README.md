@@ -105,3 +105,8 @@ php artisan migrate --force
 Configure `INLAY_MEDIA_DISK` with persistent or object storage in production.
 The application filesystem may be replaced between Cloud deployments and must
 not be treated as durable storage for Media Manager uploads.
+
+The demo includes the S3 Flysystem adapter by default, so Laravel Cloud can
+attach an S3-compatible bucket without changing the application dependencies.
+Set `INLAY_MEDIA_DISK=s3` and provide the usual `AWS_*` bucket credentials in
+the environment when enabling the bucket.
