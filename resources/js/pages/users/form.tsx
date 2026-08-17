@@ -1,6 +1,7 @@
 import { Head, usePage } from '@inertiajs/react';
 import { Form } from '@inlayphp/forms-react';
 import type { FormErrors, FormResource } from '@inlayphp/forms-react';
+import type { PanelResource } from '@inlayphp/panels-react';
 import { ResourcePage } from '@inlayphp/resources-react';
 import type {
     ResourceBreadcrumb,
@@ -9,6 +10,7 @@ import type {
 import InlayPanelLayout from '@/layouts/inlay-panel-layout';
 
 type PageProps = {
+    inlayPanel: PanelResource;
     breadcrumbs?: ResourceBreadcrumb[];
     errors: FormErrors;
     form: FormResource;
@@ -24,7 +26,13 @@ export default function UserForm({
     subheading,
     subNavigation = [],
 }: PageProps) {
-    const { errors } = usePage<PageProps>().props;
+    const { errors, inlayPanel } = usePage<PageProps>().props;
+    const theme = {
+        contract: 'inlay.themes.v1' as const,
+        name: inlayPanel.themeName ?? inlayPanel.id,
+        tokens: inlayPanel.theme,
+        darkTokens: inlayPanel.darkTheme ?? {},
+    };
 
     return (
         <InlayPanelLayout>
@@ -37,7 +45,7 @@ export default function UserForm({
                 subheading={subheading}
             >
                 <section className="rounded-(--inlay-radius) border border-(--inlay-border) bg-(--inlay-surface) p-5 sm:p-8">
-                    <Form errors={errors} resource={form} />
+                    <Form errors={errors} resource={form} theme={theme} />
                 </section>
             </ResourcePage>
         </InlayPanelLayout>
