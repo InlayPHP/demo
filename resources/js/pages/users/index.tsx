@@ -1,4 +1,5 @@
 import { Head, Link, usePage } from '@inertiajs/react';
+import type { PanelResource } from '@inlayphp/panels-react';
 import { ResourcePage } from '@inlayphp/resources-react';
 import type {
     ResourceBreadcrumb,
@@ -6,7 +7,6 @@ import type {
     ResourceTabsResource,
 } from '@inlayphp/resources-react';
 import { Table } from '@inlayphp/tables-react';
-import type { PanelResource } from '@inlayphp/panels-react';
 import type { TableResource } from '@inlayphp/tables-react';
 import { Plus } from 'lucide-react';
 import InlayPanelLayout from '@/layouts/inlay-panel-layout';
