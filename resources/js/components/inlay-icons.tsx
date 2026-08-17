@@ -1,7 +1,6 @@
 import type { PanelIconProps, PanelIconRegistry } from '@inlayphp/panels-react';
 import {
     Braces,
-    CircleDot,
     Github,
     Home,
     Images,
@@ -36,5 +35,4 @@ export const inlayIcons: PanelIconRegistry = {
     table: icon(Table2),
     'user-circle': icon(UserCircle),
     users: icon(Users),
-    fallback: icon(CircleDot),
 };
