@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a245109ff54b1927c981c1269f40d54",
+    "content-hash": "2d2ef1d4d92675d9b60f4e33a9d8490d",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1542,16 +1542,16 @@
         },
         {
             "name": "inlayphp/inlay",
-            "version": "v0.3.15",
+            "version": "v0.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/inlay.git",
-                "reference": "8896817c665dbc85cb5f856fc7e172e3846d0ec3"
+                "reference": "336f63ba366332af323c2dd69bee398884aea77b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/inlay/zipball/8896817c665dbc85cb5f856fc7e172e3846d0ec3",
-                "reference": "8896817c665dbc85cb5f856fc7e172e3846d0ec3",
+                "url": "https://api.github.com/repos/InlayPHP/inlay/zipball/336f63ba366332af323c2dd69bee398884aea77b",
+                "reference": "336f63ba366332af323c2dd69bee398884aea77b",
                 "shasum": ""
             },
             "require": {
@@ -1618,9 +1618,9 @@
             "description": "PHP-first administration panels and UI components for Laravel and Inertia.",
             "support": {
                 "issues": "https://github.com/InlayPHP/inlay/issues",
-                "source": "https://github.com/InlayPHP/inlay/tree/v0.3.15"
+                "source": "https://github.com/InlayPHP/inlay/tree/v0.3.16"
             },
-            "time": "2026-08-17T15:57:24+00:00"
+            "time": "2026-08-17T16:09:42+00:00"
         },
         {
             "name": "inlayphp/media",
