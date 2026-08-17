@@ -18,50 +18,50 @@ importers:
         specifier: ^3.0.0
         version: 3.6.1(vite@8.2.1(@types/node@22.20.1)(jiti@2.7.0))
       '@inlayphp/actions':
-        specifier: ^0.3.0
-        version: 0.3.0(@inlayphp/core@0.3.0)
+        specifier: ^0.3.1
+        version: 0.3.1(@inlayphp/core@0.3.1)
       '@inlayphp/actions-react':
-        specifier: ^0.3.0
-        version: 0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.3.1
+        version: 0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@inlayphp/core':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@inlayphp/forms-react':
-        specifier: ^0.3.0
-        version: 0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.3.1
+        version: 0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@inlayphp/media-manager-react':
-        specifier: ^0.3.0
-        version: 0.3.0(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.3.1
+        version: 0.3.1(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@inlayphp/notifications':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@inlayphp/notifications-react':
-        specifier: ^0.3.0
-        version: 0.3.0(@inlayphp/core@0.3.0)(@inlayphp/notifications@0.3.0)(@inlayphp/ui@0.3.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.3.1
+        version: 0.3.1(@inlayphp/core@0.3.1)(@inlayphp/notifications@0.3.1)(@inlayphp/ui@0.3.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@inlayphp/panels-react':
-        specifier: ^0.3.0
-        version: 0.3.0(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/core@0.3.0)(@inlayphp/forms-react@0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.3.1
+        version: 0.3.1(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/core@0.3.1)(@inlayphp/forms-react@0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@inlayphp/resources':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@inlayphp/resources-react':
-        specifier: ^0.3.0
-        version: 0.3.0(p6akcejm65hcdoznjruidkgwsa)
+        specifier: ^0.3.1
+        version: 0.3.1(kgzprdys5dgx6uxc37wvogujpy)
       '@inlayphp/tables-react':
-        specifier: ^0.3.0
-        version: 0.3.0(z764gdhqti7quvxrm3cwtjgxkq)
+        specifier: ^0.3.1
+        version: 0.3.1(x3mfdbvwgh2w7hirius7di4w7a)
       '@inlayphp/theme':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@inlayphp/ui':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@inlayphp/ui-react':
-        specifier: ^0.3.0
-        version: 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.3.1
+        version: 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@inlayphp/widgets-react':
-        specifier: ^0.3.0
-        version: 0.3.0(fnpu26hqg75urmyn42h25rwwhm)
+        specifier: ^0.3.1
+        version: 0.3.1(5ehd6ulkvcettljvoth33g3bve)
       '@radix-ui/react-avatar':
         specifier: ^1.1.3
         version: 1.2.6(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -407,133 +407,133 @@ packages:
     peerDependencies:
       vite: ^7.0.0 || ^8.0.0
 
-  '@inlayphp/actions-react@0.3.0':
-    resolution: {integrity: sha512-Sg50WfjFuz259KxvcLxqQ1zZ4umWqB9I8PTfEEyQ8oV37eEw3G6nFKSVckJgf35fzmP6f+aNbq9o5EmiEJsToQ==}
+  '@inlayphp/actions-react@0.3.1':
+    resolution: {integrity: sha512-lodYoR6QPhAeFP/Sl/6Qmwlc7/j+FdcuZiPhHasCUnMfakMyHS+//EZwImrvcPuDAraNV1g7xB5DN0/ylFDsaQ==}
     engines: {node: '>=20'}
     peerDependencies:
-      '@inlayphp/actions': ^0.3.0
-      '@inlayphp/core': ^0.3.0
-      '@inlayphp/ui-react': ^0.3.0
+      '@inlayphp/actions': ^0.3.1
+      '@inlayphp/core': ^0.3.1
+      '@inlayphp/ui-react': ^0.3.1
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@inlayphp/actions@0.3.0':
-    resolution: {integrity: sha512-RMqyJD+rCw4ckYqe/Dh61IejqlOKtM7BDioCVTdITLbpVqOpw+h0FKVW4Hn4GJeCa/QZ+3mX+/bO3fC9bZGq6A==}
+  '@inlayphp/actions@0.3.1':
+    resolution: {integrity: sha512-1LPQgvs0kZw3oRYS5wizZ8IWHy1ltWJgIQCzaiC+VbTOiJBJ+iXQqNG47KGGs/QHdE9BOKKAjlgFCTgqAPBkwQ==}
     engines: {node: '>=20'}
     peerDependencies:
-      '@inlayphp/core': ^0.3.0
+      '@inlayphp/core': ^0.3.1
 
-  '@inlayphp/core@0.3.0':
-    resolution: {integrity: sha512-/7irYS0PXfEJG5PEyB61tgLM9hkoovBp5zJSvwLPT9o9N064VewhMDrVtNVv27SiDwZdt98GjRDB+Hj6GDjXgA==}
+  '@inlayphp/core@0.3.1':
+    resolution: {integrity: sha512-B4saPo2Cs33g0UcOhH0B4b3ao1pw9OXRT5UBYXg4RPtdn2ZqmmRyf/PXQP0/2JpxxUJmaSs1VVPmhqBeIcEFcA==}
     engines: {node: '>=20'}
 
-  '@inlayphp/forms-react@0.3.0':
-    resolution: {integrity: sha512-lokwXtqNEiLMAwU2SzRsVEJdMCJ9y+lUW80xHsAWEf3r80vhdyZJk9b/eWyWQ4ZmRAEPkJxbGRRrhQYihf36Ig==}
+  '@inlayphp/forms-react@0.3.1':
+    resolution: {integrity: sha512-tGELnibeTLzDtM/2GV20i//7HGJcmxmzTtKO3msTIeU1/yHxkRzOevuiUIPpLZtv86oEVzT1TjQFog+joQoixg==}
     engines: {node: '>=20'}
     peerDependencies:
       '@inertiajs/react': ^3.0.0
-      '@inlayphp/actions': ^0.3.0
-      '@inlayphp/actions-react': ^0.3.0
-      '@inlayphp/core': ^0.3.0
-      '@inlayphp/theme': ^0.3.0
-      '@inlayphp/ui-react': ^0.3.0
+      '@inlayphp/actions': ^0.3.1
+      '@inlayphp/actions-react': ^0.3.1
+      '@inlayphp/core': ^0.3.1
+      '@inlayphp/theme': ^0.3.1
+      '@inlayphp/ui-react': ^0.3.1
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@inlayphp/media-manager-react@0.3.0':
-    resolution: {integrity: sha512-KPy+Vl6A7XbA7HcgPi9vZ9MJsaUhlDWVNTVQTc+jqoiG9/uMXl37S2XwtnLkFpsZXbcvexO4USMmhigc8vKZ7w==}
+  '@inlayphp/media-manager-react@0.3.1':
+    resolution: {integrity: sha512-sDsK71NTfesz4GShowGZSv8gBYt5W1F88RmjnvnX3QFiVJiwSggEB9sgVDEE7aZ+nLT9JsrhXJiNQBXPwBYtHw==}
     engines: {node: '>=20'}
     peerDependencies:
       '@inertiajs/react': ^3.0.0
-      '@inlayphp/theme': ^0.3.0
-      '@inlayphp/ui-react': ^0.3.0
+      '@inlayphp/theme': ^0.3.1
+      '@inlayphp/ui-react': ^0.3.1
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@inlayphp/notifications-react@0.3.0':
-    resolution: {integrity: sha512-c1qVjDKXHt1Uu7KpoItZsx4G93BUVN1boRRrnkoefEy/Un+PL4+QcF/WkO2hNZhauzFtvQCbFRiaDkF2K/jmbA==}
+  '@inlayphp/notifications-react@0.3.1':
+    resolution: {integrity: sha512-Oaz7WN9vsbDYLfbi/4LfUEqYqutUFns7JgxpTdwr7tAimjkr7eQsA0gzMXm7p84flPbuxnAx+9R8huUU9scAyg==}
     engines: {node: '>=20'}
     peerDependencies:
-      '@inlayphp/core': ^0.3.0
-      '@inlayphp/notifications': ^0.3.0
-      '@inlayphp/ui': ^0.3.0
+      '@inlayphp/core': ^0.3.1
+      '@inlayphp/notifications': ^0.3.1
+      '@inlayphp/ui': ^0.3.1
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@inlayphp/notifications@0.3.0':
-    resolution: {integrity: sha512-lJPNL+9DqNGT1WURCQ3XuWWyeNP4HS8NVGmgmBZbaYBV77KcrrHs62Od1w0IEe+fE5bR6I0Gx6ZztxJxZ/mpaQ==}
+  '@inlayphp/notifications@0.3.1':
+    resolution: {integrity: sha512-SuI2VAmgw/sycpFYFTTjuEMWbyR3X73XjJ/M+uG6R+sVPRLxSwNbRw4eQuL0HMfRSyCOeUUP+wb4Wxf6Sd2ZRA==}
     engines: {node: '>=20'}
 
-  '@inlayphp/panels-react@0.3.0':
-    resolution: {integrity: sha512-6hcaQNCutVPu8Gqx+NvXcL2btzb/Yy1juxRLCifaxkwUjf1K5RUzcfFL7FQUsbKM/c+BTIsXzeyMM210tX1xOw==}
+  '@inlayphp/panels-react@0.3.1':
+    resolution: {integrity: sha512-AQ6/HD8USDfwSsyHGeTXcOUqy9aCL4VioAf5Zgzh1iWexJB7l0pAuU8iU3XRJO4azJ8qVAC4SKFxsEolprxmzQ==}
     engines: {node: '>=20'}
     peerDependencies:
       '@inertiajs/react': ^3.0.0
-      '@inlayphp/core': ^0.3.0
-      '@inlayphp/forms-react': ^0.3.0
-      '@inlayphp/theme': ^0.3.0
-      '@inlayphp/ui-react': ^0.3.0
+      '@inlayphp/core': ^0.3.1
+      '@inlayphp/forms-react': ^0.3.1
+      '@inlayphp/theme': ^0.3.1
+      '@inlayphp/ui-react': ^0.3.1
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@inlayphp/resources-react@0.3.0':
-    resolution: {integrity: sha512-qbiVjxVfKRMFILg4jMnNYmkKkSpyyKQrAAp24SqWuCukfDnyzauVjnSd4NDNrm9SQU0m6sxPzAnsAIyWo5bNdg==}
+  '@inlayphp/resources-react@0.3.1':
+    resolution: {integrity: sha512-7Gqq2idO9C74+8polmv3YiNH3bVcTPE0HdsJNesKqGiRIxhRdaDVmn/Nj/KGVCURS8K5bUnBhwMptsGSVSIMMw==}
     engines: {node: '>=20'}
     peerDependencies:
       '@inertiajs/react': ^3.0.0
-      '@inlayphp/actions': ^0.3.0
-      '@inlayphp/actions-react': ^0.3.0
-      '@inlayphp/forms-react': ^0.3.0
-      '@inlayphp/resources': ^0.3.0
-      '@inlayphp/tables-react': ^0.3.0
-      '@inlayphp/ui-react': ^0.3.0
-      '@inlayphp/widgets-react': ^0.3.0
+      '@inlayphp/actions': ^0.3.1
+      '@inlayphp/actions-react': ^0.3.1
+      '@inlayphp/forms-react': ^0.3.1
+      '@inlayphp/resources': ^0.3.1
+      '@inlayphp/tables-react': ^0.3.1
+      '@inlayphp/ui-react': ^0.3.1
+      '@inlayphp/widgets-react': ^0.3.1
       react: ^19.0.0
 
-  '@inlayphp/resources@0.3.0':
-    resolution: {integrity: sha512-n/JLGHXz9EO+JTBKxMxmoTPGUGyUvP0asUvRx8vpRae63/4KYarhvUhYsZsWWl5r3sHnT34A6azrXgqqu6ND5A==}
+  '@inlayphp/resources@0.3.1':
+    resolution: {integrity: sha512-56CHxWTQfQYmLhunoIQiqQMPVLSvRcxiUlfSzsLKSRHsg9zPtGm7h+4nt2MNgailDvfi6hkErmtNMEPkdVU4Yg==}
     engines: {node: '>=20'}
 
-  '@inlayphp/tables-react@0.3.0':
-    resolution: {integrity: sha512-66EqJAHfmZRiZJpFJ5xrcJSrFg5iZ7jm7wsStP4F16jKDgMsIhevG8VMStci8uhj1bcQ/ugAMDIq27L1fY1u3A==}
+  '@inlayphp/tables-react@0.3.1':
+    resolution: {integrity: sha512-hTv7sIlaFu7U1PQyQVPMq0ULfPLrFvjO8jiXMgJSvALN2y1GE8H13bcqA+o1voqIYQTGitLjdUl53HA4b8QT/w==}
     engines: {node: '>=20'}
     peerDependencies:
       '@inertiajs/react': ^3.0.0
-      '@inlayphp/actions': ^0.3.0
-      '@inlayphp/actions-react': ^0.3.0
-      '@inlayphp/core': ^0.3.0
-      '@inlayphp/forms-react': ^0.3.0
-      '@inlayphp/theme': ^0.3.0
-      '@inlayphp/ui-react': ^0.3.0
-      react: ^19.0.0
-      react-dom: ^19.0.0
-
-  '@inlayphp/theme@0.3.0':
-    resolution: {integrity: sha512-YtlDrQgB4ZxFCl3DebtfNz+VYcxzjQ1k1wf6olYZTsnovqazmXfEoGycQS2z3tPoCcbE/10EmwjvfuFem7ymHw==}
-    engines: {node: '>=20'}
-
-  '@inlayphp/ui-react@0.3.0':
-    resolution: {integrity: sha512-gBTMGwGt6y1kAyvsKeo8oxwsPQ3whOasaex0GjsCFRWTud7TeQkgs1AxZXALlnYxvfhjcCjeIOXgf9rt0+eU3w==}
-    engines: {node: '>=20'}
-    peerDependencies:
+      '@inlayphp/actions': ^0.3.1
+      '@inlayphp/actions-react': ^0.3.1
+      '@inlayphp/core': ^0.3.1
+      '@inlayphp/forms-react': ^0.3.1
+      '@inlayphp/theme': ^0.3.1
+      '@inlayphp/ui-react': ^0.3.1
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@inlayphp/ui@0.3.0':
-    resolution: {integrity: sha512-0SU72r/DJOMqnZPsxY/C2dOAVdoeZJrgiP6VqMLCOfoQU4bKC7FKheZJd1X2FYWra6T6K1Fh+0Xjfnc7BJmTng==}
+  '@inlayphp/theme@0.3.1':
+    resolution: {integrity: sha512-xMgUtTi99fnE48nXBIPKqZF/3hCqBZqJsEdyVBRFFlMizp5e6ASkVfaTAVg2SA0M1rWG8f5XcDGXnrFJncgXOg==}
     engines: {node: '>=20'}
 
-  '@inlayphp/widgets-react@0.3.0':
-    resolution: {integrity: sha512-09e9qsGdq8xJaj3O90Ag/b9+dwzImgx6YCZ1Lq5RmKN8ZZjIpvE16xSfvUBee8/VFvV3PrHzTNqJB5bgOqOZzQ==}
+  '@inlayphp/ui-react@0.3.1':
+    resolution: {integrity: sha512-c+Irl3GN7CTbtgjiVKXoHxR6SwaqUeqvpYM0FKLxEp6nbjKwNml9VZAdgQ95Fj63K82tomkP+k8R5Kx+7hjdEw==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      react: ^19.0.0
+      react-dom: ^19.0.0
+
+  '@inlayphp/ui@0.3.1':
+    resolution: {integrity: sha512-Kw0Rms7tgNUSw0qys+vyPPcjHYpKaeoGCNwx3qx3dIa9zzCPfWaOKwmMate1Vy8XMHgAD/Ybn09K7/xUSoqSqA==}
+    engines: {node: '>=20'}
+
+  '@inlayphp/widgets-react@0.3.1':
+    resolution: {integrity: sha512-40Z6VU0sgPNiiSvwzImJKPmIjPiugSt9ySuz1D8p19jIu762Qc7aq8d7sW5HTZkHUW3VYFK2PZ4tkDf2ukdTbQ==}
     engines: {node: '>=20'}
     peerDependencies:
       '@inertiajs/react': ^3.0.0
-      '@inlayphp/actions': ^0.3.0
-      '@inlayphp/actions-react': ^0.3.0
-      '@inlayphp/core': ^0.3.0
-      '@inlayphp/forms-react': ^0.3.0
-      '@inlayphp/tables-react': ^0.3.0
-      '@inlayphp/theme': ^0.3.0
+      '@inlayphp/actions': ^0.3.1
+      '@inlayphp/actions-react': ^0.3.1
+      '@inlayphp/core': ^0.3.1
+      '@inlayphp/forms-react': ^0.3.1
+      '@inlayphp/tables-react': ^0.3.1
+      '@inlayphp/theme': ^0.3.1
       react: ^19.0.0
 
   '@jridgewell/gen-mapping@0.3.13':
@@ -3378,28 +3378,28 @@ snapshots:
     transitivePeerDependencies:
       - axios
 
-  '@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
-      '@inlayphp/actions': 0.3.0(@inlayphp/core@0.3.0)
-      '@inlayphp/core': 0.3.0
-      '@inlayphp/ui-react': 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/actions': 0.3.1(@inlayphp/core@0.3.1)
+      '@inlayphp/core': 0.3.1
+      '@inlayphp/ui-react': 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
-  '@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0)':
+  '@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1)':
     dependencies:
-      '@inlayphp/core': 0.3.0
+      '@inlayphp/core': 0.3.1
 
-  '@inlayphp/core@0.3.0': {}
+  '@inlayphp/core@0.3.1': {}
 
-  '@inlayphp/forms-react@0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@inlayphp/forms-react@0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@inertiajs/react': 3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/actions': 0.3.0(@inlayphp/core@0.3.0)
-      '@inlayphp/actions-react': 0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/core': 0.3.0
-      '@inlayphp/theme': 0.3.0
-      '@inlayphp/ui-react': 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/actions': 0.3.1(@inlayphp/core@0.3.1)
+      '@inlayphp/actions-react': 0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/core': 0.3.1
+      '@inlayphp/theme': 0.3.1
+      '@inlayphp/ui-react': 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@tiptap/core': 3.30.0(@tiptap/pm@3.30.0)
       '@tiptap/extension-image': 3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))
       '@tiptap/extension-placeholder': 3.30.0(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))
@@ -3415,79 +3415,79 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
 
-  '@inlayphp/media-manager-react@0.3.0(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@inlayphp/media-manager-react@0.3.1(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@inertiajs/react': 3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/theme': 0.3.0
-      '@inlayphp/ui-react': 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/theme': 0.3.1
+      '@inlayphp/ui-react': 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
-  '@inlayphp/notifications-react@0.3.0(@inlayphp/core@0.3.0)(@inlayphp/notifications@0.3.0)(@inlayphp/ui@0.3.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@inlayphp/notifications-react@0.3.1(@inlayphp/core@0.3.1)(@inlayphp/notifications@0.3.1)(@inlayphp/ui@0.3.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
-      '@inlayphp/core': 0.3.0
-      '@inlayphp/notifications': 0.3.0
-      '@inlayphp/ui': 0.3.0
+      '@inlayphp/core': 0.3.1
+      '@inlayphp/notifications': 0.3.1
+      '@inlayphp/ui': 0.3.1
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
-  '@inlayphp/notifications@0.3.0': {}
+  '@inlayphp/notifications@0.3.1': {}
 
-  '@inlayphp/panels-react@0.3.0(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/core@0.3.0)(@inlayphp/forms-react@0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@inlayphp/panels-react@0.3.1(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/core@0.3.1)(@inlayphp/forms-react@0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@inertiajs/react': 3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/core': 0.3.0
-      '@inlayphp/forms-react': 0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/theme': 0.3.0
-      '@inlayphp/ui-react': 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/core': 0.3.1
+      '@inlayphp/forms-react': 0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/theme': 0.3.1
+      '@inlayphp/ui-react': 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
-  '@inlayphp/resources-react@0.3.0(p6akcejm65hcdoznjruidkgwsa)':
+  '@inlayphp/resources-react@0.3.1(kgzprdys5dgx6uxc37wvogujpy)':
     dependencies:
       '@inertiajs/react': 3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/actions': 0.3.0(@inlayphp/core@0.3.0)
-      '@inlayphp/actions-react': 0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/forms-react': 0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/resources': 0.3.0
-      '@inlayphp/tables-react': 0.3.0(z764gdhqti7quvxrm3cwtjgxkq)
-      '@inlayphp/ui-react': 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/widgets-react': 0.3.0(fnpu26hqg75urmyn42h25rwwhm)
+      '@inlayphp/actions': 0.3.1(@inlayphp/core@0.3.1)
+      '@inlayphp/actions-react': 0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/forms-react': 0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/resources': 0.3.1
+      '@inlayphp/tables-react': 0.3.1(x3mfdbvwgh2w7hirius7di4w7a)
+      '@inlayphp/ui-react': 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/widgets-react': 0.3.1(5ehd6ulkvcettljvoth33g3bve)
       react: 19.2.8
 
-  '@inlayphp/resources@0.3.0': {}
+  '@inlayphp/resources@0.3.1': {}
 
-  '@inlayphp/tables-react@0.3.0(z764gdhqti7quvxrm3cwtjgxkq)':
+  '@inlayphp/tables-react@0.3.1(x3mfdbvwgh2w7hirius7di4w7a)':
     dependencies:
       '@inertiajs/react': 3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/actions': 0.3.0(@inlayphp/core@0.3.0)
-      '@inlayphp/actions-react': 0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/core': 0.3.0
-      '@inlayphp/forms-react': 0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/theme': 0.3.0
-      '@inlayphp/ui-react': 0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
-
-  '@inlayphp/theme@0.3.0': {}
-
-  '@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
-    dependencies:
-      '@inlayphp/ui': 0.3.0
+      '@inlayphp/actions': 0.3.1(@inlayphp/core@0.3.1)
+      '@inlayphp/actions-react': 0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/core': 0.3.1
+      '@inlayphp/forms-react': 0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/theme': 0.3.1
+      '@inlayphp/ui-react': 0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
-  '@inlayphp/ui@0.3.0': {}
+  '@inlayphp/theme@0.3.1': {}
 
-  '@inlayphp/widgets-react@0.3.0(fnpu26hqg75urmyn42h25rwwhm)':
+  '@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+    dependencies:
+      '@inlayphp/ui': 0.3.1
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
+
+  '@inlayphp/ui@0.3.1': {}
+
+  '@inlayphp/widgets-react@0.3.1(5ehd6ulkvcettljvoth33g3bve)':
     dependencies:
       '@inertiajs/react': 3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/actions': 0.3.0(@inlayphp/core@0.3.0)
-      '@inlayphp/actions-react': 0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/core': 0.3.0
-      '@inlayphp/forms-react': 0.3.0(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.0(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.0(@inlayphp/core@0.3.0))(@inlayphp/core@0.3.0)(@inlayphp/theme@0.3.0)(@inlayphp/ui-react@0.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@inlayphp/tables-react': 0.3.0(z764gdhqti7quvxrm3cwtjgxkq)
-      '@inlayphp/theme': 0.3.0
+      '@inlayphp/actions': 0.3.1(@inlayphp/core@0.3.1)
+      '@inlayphp/actions-react': 0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/core': 0.3.1
+      '@inlayphp/forms-react': 0.3.1(@floating-ui/dom@1.8.0)(@inertiajs/react@3.6.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions-react@0.3.1(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@inlayphp/actions@0.3.1(@inlayphp/core@0.3.1))(@inlayphp/core@0.3.1)(@inlayphp/theme@0.3.1)(@inlayphp/ui-react@0.3.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@tiptap/extensions@3.30.0(@tiptap/core@3.30.0(@tiptap/pm@3.30.0))(@tiptap/pm@3.30.0))(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@inlayphp/tables-react': 0.3.1(x3mfdbvwgh2w7hirius7di4w7a)
+      '@inlayphp/theme': 0.3.1
       react: 19.2.8
 
   '@jridgewell/gen-mapping@0.3.13':
