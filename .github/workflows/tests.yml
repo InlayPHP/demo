@@ -21,6 +21,15 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      - name: Cache Composer downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/composer
+          key: composer-${{ runner.os }}-demo-${{ hashFiles('composer.lock') }}
+          restore-keys: |
+            composer-${{ runner.os }}-demo-
+            composer-${{ runner.os }}-
+
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.4'
@@ -28,7 +37,7 @@ jobs:
           coverage: none
 
       - run: composer validate --strict --no-check-publish
-      - run: composer install --no-interaction --prefer-dist --no-progress
+      - run: bash .github/scripts/composer-retry.sh install --no-interaction --prefer-dist --no-progress
       - run: cp .env.example .env
       - run: mkdir -p storage/framework/cache storage/framework/sessions storage/framework/testing storage/framework/views storage/logs bootstrap/cache
       - run: php artisan key:generate --force
