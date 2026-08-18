@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d4eadc84d5a1aa3a6c0b956335bc0dc",
+    "content-hash": "44082fed4cbd98cd768e8b9dcd752054",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1282,16 +1282,16 @@
         },
         {
             "name": "inlayphp/actions",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/actions.git",
-                "reference": "22c459a46c6e3679784c6d8c6e138b55634746d2"
+                "reference": "8822b7b06c09e0db405fab0b3c3382ab5d815706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/actions/zipball/22c459a46c6e3679784c6d8c6e138b55634746d2",
-                "reference": "22c459a46c6e3679784c6d8c6e138b55634746d2",
+                "url": "https://api.github.com/repos/InlayPHP/actions/zipball/8822b7b06c09e0db405fab0b3c3382ab5d815706",
+                "reference": "8822b7b06c09e0db405fab0b3c3382ab5d815706",
                 "shasum": ""
             },
             "require": {
@@ -1321,22 +1321,22 @@
             ],
             "description": "Reusable action contracts for Laravel and Inlay components.",
             "support": {
-                "source": "https://github.com/InlayPHP/actions/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/actions/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/authorization",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/authorization.git",
-                "reference": "fd68c01ec8c99a221f44a1ccfef716d94a6f1a44"
+                "reference": "84085e89e034d47aff63c730c78fbe7bf23c5173"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/authorization/zipball/fd68c01ec8c99a221f44a1ccfef716d94a6f1a44",
-                "reference": "fd68c01ec8c99a221f44a1ccfef716d94a6f1a44",
+                "url": "https://api.github.com/repos/InlayPHP/authorization/zipball/84085e89e034d47aff63c730c78fbe7bf23c5173",
+                "reference": "84085e89e034d47aff63c730c78fbe7bf23c5173",
                 "shasum": ""
             },
             "require": {
@@ -1364,22 +1364,22 @@
             ],
             "description": "Vendor-neutral Laravel Gate and Policy authorization for Inlay resources and panels.",
             "support": {
-                "source": "https://github.com/InlayPHP/authorization/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/authorization/tree/v0.3.18"
             },
-            "time": "2026-08-12T10:18:03+00:00"
+            "time": "2026-08-12T10:16:25+00:00"
         },
         {
             "name": "inlayphp/core",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/core.git",
-                "reference": "4b58a63c2a8696d8bf318bb521e6afd90693b5ac"
+                "reference": "32910d196376b9f0c219fef807aa1999bceddafd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/core/zipball/4b58a63c2a8696d8bf318bb521e6afd90693b5ac",
-                "reference": "4b58a63c2a8696d8bf318bb521e6afd90693b5ac",
+                "url": "https://api.github.com/repos/InlayPHP/core/zipball/32910d196376b9f0c219fef807aa1999bceddafd",
+                "reference": "32910d196376b9f0c219fef807aa1999bceddafd",
                 "shasum": ""
             },
             "require": {
@@ -1397,22 +1397,22 @@
             ],
             "description": "Plugin, extension, asset, and render hook contracts for Inlay.",
             "support": {
-                "source": "https://github.com/InlayPHP/core/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/core/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/design",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/design.git",
-                "reference": "38e311998a4e46b8c305647a4982090f4d9a5822"
+                "reference": "8f36ccb641b189fda446d624e325bdd4862cafb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/design/zipball/38e311998a4e46b8c305647a4982090f4d9a5822",
-                "reference": "38e311998a4e46b8c305647a4982090f4d9a5822",
+                "url": "https://api.github.com/repos/InlayPHP/design/zipball/8f36ccb641b189fda446d624e325bdd4862cafb7",
+                "reference": "8f36ccb641b189fda446d624e325bdd4862cafb7",
                 "shasum": ""
             },
             "require": {
@@ -1440,22 +1440,22 @@
             ],
             "description": "Inlay design system façade, semantic tokens, and theme generation tools.",
             "support": {
-                "source": "https://github.com/InlayPHP/design/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/design/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/forms",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/forms.git",
-                "reference": "e426f046917ca859f18fc2bcff3eaa527157d564"
+                "reference": "ba7ddcbf232dc66c5d2f2bdf5df6b578aa0c64b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/forms/zipball/e426f046917ca859f18fc2bcff3eaa527157d564",
-                "reference": "e426f046917ca859f18fc2bcff3eaa527157d564",
+                "url": "https://api.github.com/repos/InlayPHP/forms/zipball/ba7ddcbf232dc66c5d2f2bdf5df6b578aa0c64b2",
+                "reference": "ba7ddcbf232dc66c5d2f2bdf5df6b578aa0c64b2",
                 "shasum": ""
             },
             "require": {
@@ -1496,22 +1496,22 @@
             ],
             "description": "Schema-driven forms for Laravel and Inertia.",
             "support": {
-                "source": "https://github.com/InlayPHP/forms/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/forms/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/infolists",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/infolists.git",
-                "reference": "a5c9e1eeccf6edc540d2af97f74a08006ac3571e"
+                "reference": "37cf54b61ffeaad2f28c1dfa84b90a6389e71343"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/infolists/zipball/a5c9e1eeccf6edc540d2af97f74a08006ac3571e",
-                "reference": "a5c9e1eeccf6edc540d2af97f74a08006ac3571e",
+                "url": "https://api.github.com/repos/InlayPHP/infolists/zipball/37cf54b61ffeaad2f28c1dfa84b90a6389e71343",
+                "reference": "37cf54b61ffeaad2f28c1dfa84b90a6389e71343",
                 "shasum": ""
             },
             "require": {
@@ -1536,22 +1536,22 @@
             ],
             "description": "Renderer-neutral read-only infolist schemas for Laravel and Inertia.",
             "support": {
-                "source": "https://github.com/InlayPHP/infolists/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/infolists/tree/v0.3.18"
             },
-            "time": "2026-08-17T10:11:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/inlay",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/inlay.git",
-                "reference": "48c235b5f94f7fc7484e0755c166746506ddc903"
+                "reference": "53b321633ab0120b20a2c3c3b14f7f5ec274b087"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/inlay/zipball/48c235b5f94f7fc7484e0755c166746506ddc903",
-                "reference": "48c235b5f94f7fc7484e0755c166746506ddc903",
+                "url": "https://api.github.com/repos/InlayPHP/inlay/zipball/53b321633ab0120b20a2c3c3b14f7f5ec274b087",
+                "reference": "53b321633ab0120b20a2c3c3b14f7f5ec274b087",
                 "shasum": ""
             },
             "require": {
@@ -1618,22 +1618,22 @@
             "description": "PHP-first administration panels and UI components for Laravel and Inertia.",
             "support": {
                 "issues": "https://github.com/InlayPHP/inlay/issues",
-                "source": "https://github.com/InlayPHP/inlay/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/inlay/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/media",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/media.git",
-                "reference": "1d00344a55eab5e0e704cfcbff4e62d117f29268"
+                "reference": "826d48ffded6635d056feac2b1390031593a14a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/media/zipball/1d00344a55eab5e0e704cfcbff4e62d117f29268",
-                "reference": "1d00344a55eab5e0e704cfcbff4e62d117f29268",
+                "url": "https://api.github.com/repos/InlayPHP/media/zipball/826d48ffded6635d056feac2b1390031593a14a9",
+                "reference": "826d48ffded6635d056feac2b1390031593a14a9",
                 "shasum": ""
             },
             "require": {
@@ -1664,22 +1664,22 @@
             ],
             "description": "Secure media catalog, albums, folders, and upload domain for Inlay.",
             "support": {
-                "source": "https://github.com/InlayPHP/media/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/media/tree/v0.3.18"
             },
-            "time": "2026-08-12T18:18:00+00:00"
+            "time": "2026-08-12T18:17:40+00:00"
         },
         {
             "name": "inlayphp/media-manager",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/media-manager.git",
-                "reference": "6dda1a1262a42fc29c412b43d9c8b1a1341ba945"
+                "reference": "8b792c664efd045cd2da3b47e6b6bb2c3c16ed92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/media-manager/zipball/6dda1a1262a42fc29c412b43d9c8b1a1341ba945",
-                "reference": "6dda1a1262a42fc29c412b43d9c8b1a1341ba945",
+                "url": "https://api.github.com/repos/InlayPHP/media-manager/zipball/8b792c664efd045cd2da3b47e6b6bb2c3c16ed92",
+                "reference": "8b792c664efd045cd2da3b47e6b6bb2c3c16ed92",
                 "shasum": ""
             },
             "require": {
@@ -1716,22 +1716,22 @@
             ],
             "description": "Authorized media browser and picker backend plugin for Inlay panels.",
             "support": {
-                "source": "https://github.com/InlayPHP/media-manager/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/media-manager/tree/v0.3.18"
             },
-            "time": "2026-08-17T10:11:31+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/notifications",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/notifications.git",
-                "reference": "e14e9edeeb2835a13158062d78526be495ab1c0d"
+                "reference": "5d94ef73858e1da2009df8de956e208222e2c691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/notifications/zipball/e14e9edeeb2835a13158062d78526be495ab1c0d",
-                "reference": "e14e9edeeb2835a13158062d78526be495ab1c0d",
+                "url": "https://api.github.com/repos/InlayPHP/notifications/zipball/5d94ef73858e1da2009df8de956e208222e2c691",
+                "reference": "5d94ef73858e1da2009df8de956e208222e2c691",
                 "shasum": ""
             },
             "require": {
@@ -1760,22 +1760,22 @@
             ],
             "description": "Session and database notifications for Inlay and Laravel applications.",
             "support": {
-                "source": "https://github.com/InlayPHP/notifications/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/notifications/tree/v0.3.18"
             },
-            "time": "2026-08-17T10:11:25+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/panels",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/panels.git",
-                "reference": "94dbdbd6ba7af8d6a039b3119f05ec7312b1d658"
+                "reference": "f2b14fc8603e7001a2a79edf86af35b2626ad135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/panels/zipball/94dbdbd6ba7af8d6a039b3119f05ec7312b1d658",
-                "reference": "94dbdbd6ba7af8d6a039b3119f05ec7312b1d658",
+                "url": "https://api.github.com/repos/InlayPHP/panels/zipball/f2b14fc8603e7001a2a79edf86af35b2626ad135",
+                "reference": "f2b14fc8603e7001a2a79edf86af35b2626ad135",
                 "shasum": ""
             },
             "require": {
@@ -1818,22 +1818,22 @@
             ],
             "description": "PHP-first administration panels, authentication, dashboards, navigation, and routing for Laravel and Inertia.",
             "support": {
-                "source": "https://github.com/InlayPHP/panels/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/panels/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/resources",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/resources.git",
-                "reference": "a1a3527b800057f7c4d1e73a4c2fc6c1abce52aa"
+                "reference": "ddcae0c2c7b934c0ffc5f4e730e1dca5c63ff6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/resources/zipball/a1a3527b800057f7c4d1e73a4c2fc6c1abce52aa",
-                "reference": "a1a3527b800057f7c4d1e73a4c2fc6c1abce52aa",
+                "url": "https://api.github.com/repos/InlayPHP/resources/zipball/ddcae0c2c7b934c0ffc5f4e730e1dca5c63ff6d9",
+                "reference": "ddcae0c2c7b934c0ffc5f4e730e1dca5c63ff6d9",
                 "shasum": ""
             },
             "require": {
@@ -1877,22 +1877,22 @@
             ],
             "description": "Fluent Laravel resource orchestration for Inlay forms, tables, infolists, and panels.",
             "support": {
-                "source": "https://github.com/InlayPHP/resources/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/resources/tree/v0.3.18"
             },
-            "time": "2026-08-17T10:11:12+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/schemas",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/schemas.git",
-                "reference": "05bac70e1f8177959be60963ac77001d7ae7d430"
+                "reference": "5def967010d3e1d0998894d350fea6e0370a1ca5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/schemas/zipball/05bac70e1f8177959be60963ac77001d7ae7d430",
-                "reference": "05bac70e1f8177959be60963ac77001d7ae7d430",
+                "url": "https://api.github.com/repos/InlayPHP/schemas/zipball/5def967010d3e1d0998894d350fea6e0370a1ca5",
+                "reference": "5def967010d3e1d0998894d350fea6e0370a1ca5",
                 "shasum": ""
             },
             "require": {
@@ -1919,22 +1919,22 @@
             ],
             "description": "Renderer-neutral schema components and layout primitives for Inlay.",
             "support": {
-                "source": "https://github.com/InlayPHP/schemas/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/schemas/tree/v0.3.18"
             },
-            "time": "2026-08-12T12:19:36+00:00"
+            "time": "2026-08-12T12:18:31+00:00"
         },
         {
             "name": "inlayphp/support",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/support.git",
-                "reference": "17d717e5be249495bf8e53c6a9ca33a90bbf20f3"
+                "reference": "bb0072bbd99437f24c1ea58bc782be5c7c84bd83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/support/zipball/17d717e5be249495bf8e53c6a9ca33a90bbf20f3",
-                "reference": "17d717e5be249495bf8e53c6a9ca33a90bbf20f3",
+                "url": "https://api.github.com/repos/InlayPHP/support/zipball/bb0072bbd99437f24c1ea58bc782be5c7c84bd83",
+                "reference": "bb0072bbd99437f24c1ea58bc782be5c7c84bd83",
                 "shasum": ""
             },
             "require": {
@@ -1952,22 +1952,22 @@
             ],
             "description": "Shared serializable contracts for Inlay packages.",
             "support": {
-                "source": "https://github.com/InlayPHP/support/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/support/tree/v0.3.18"
             },
-            "time": "2026-08-11T12:01:56+00:00"
+            "time": "2026-08-11T12:01:35+00:00"
         },
         {
             "name": "inlayphp/tables",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/tables.git",
-                "reference": "3510dd5306517bb3add41bc88fe90532ade2bb84"
+                "reference": "29b39acb541d9f6f65db100d804ebf72de4a409f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/tables/zipball/3510dd5306517bb3add41bc88fe90532ade2bb84",
-                "reference": "3510dd5306517bb3add41bc88fe90532ade2bb84",
+                "url": "https://api.github.com/repos/InlayPHP/tables/zipball/29b39acb541d9f6f65db100d804ebf72de4a409f",
+                "reference": "29b39acb541d9f6f65db100d804ebf72de4a409f",
                 "shasum": ""
             },
             "require": {
@@ -2005,22 +2005,22 @@
             ],
             "description": "Schema-driven tables for Laravel and Inertia.",
             "support": {
-                "source": "https://github.com/InlayPHP/tables/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/tables/tree/v0.3.18"
             },
-            "time": "2026-08-17T10:11:12+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/theme",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/theme.git",
-                "reference": "41e572e75bbd29e0c3c0601fc88330f5814972db"
+                "reference": "17e60201161991fcb608a0b68393b559d7b0c8a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/theme/zipball/41e572e75bbd29e0c3c0601fc88330f5814972db",
-                "reference": "41e572e75bbd29e0c3c0601fc88330f5814972db",
+                "url": "https://api.github.com/repos/InlayPHP/theme/zipball/17e60201161991fcb608a0b68393b559d7b0c8a6",
+                "reference": "17e60201161991fcb608a0b68393b559d7b0c8a6",
                 "shasum": ""
             },
             "require": {
@@ -2038,22 +2038,22 @@
             ],
             "description": "Shared semantic theme contracts and presets for Inlay applications.",
             "support": {
-                "source": "https://github.com/InlayPHP/theme/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/theme/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "inlayphp/validation",
-            "version": "v0.3.8",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/validation.git",
-                "reference": "2842a60a76a81ef6e85ce704b4ef65529cd55e32"
+                "reference": "06816e18a244592ebc1212e5bda824d10bb67bb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/validation/zipball/2842a60a76a81ef6e85ce704b4ef65529cd55e32",
-                "reference": "2842a60a76a81ef6e85ce704b4ef65529cd55e32",
+                "url": "https://api.github.com/repos/InlayPHP/validation/zipball/06816e18a244592ebc1212e5bda824d10bb67bb3",
+                "reference": "06816e18a244592ebc1212e5bda824d10bb67bb3",
                 "shasum": ""
             },
             "require": {
@@ -2084,22 +2084,22 @@
             ],
             "description": "Reusable Laravel validation classes for forms, requests, imports, APIs, and actions.",
             "support": {
-                "source": "https://github.com/InlayPHP/validation/tree/v0.3.8"
+                "source": "https://github.com/InlayPHP/validation/tree/v0.3.18"
             },
-            "time": "2026-08-12T10:18:09+00:00"
+            "time": "2026-08-12T10:16:25+00:00"
         },
         {
             "name": "inlayphp/widgets",
-            "version": "v0.3.17",
+            "version": "v0.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/InlayPHP/widgets.git",
-                "reference": "bff5c0e0b09bf06d026821b7084ece78a64fedac"
+                "reference": "e2e5c00914a2e4539ac90192b4f32b893e08d3e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InlayPHP/widgets/zipball/bff5c0e0b09bf06d026821b7084ece78a64fedac",
-                "reference": "bff5c0e0b09bf06d026821b7084ece78a64fedac",
+                "url": "https://api.github.com/repos/InlayPHP/widgets/zipball/e2e5c00914a2e4539ac90192b4f32b893e08d3e2",
+                "reference": "e2e5c00914a2e4539ac90192b4f32b893e08d3e2",
                 "shasum": ""
             },
             "require": {
@@ -2122,9 +2122,9 @@
             ],
             "description": "PHP-first dashboard widgets for Inlay panels and Inertia applications.",
             "support": {
-                "source": "https://github.com/InlayPHP/widgets/tree/v0.3.17"
+                "source": "https://github.com/InlayPHP/widgets/tree/v0.3.18"
             },
-            "time": "2026-08-18T04:00:10+00:00"
+            "time": "2026-08-18T05:55:51+00:00"
         },
         {
             "name": "laravel/framework",
