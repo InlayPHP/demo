@@ -31,10 +31,16 @@ export default function InlayPanelLayout({ children }: PropsWithChildren) {
                 resource={inlayPanel}
                 slots={{
                     headerStart: (
-                        <nav aria-label="Breadcrumb" className="hidden items-center gap-2 text-xs text-(--inlay-muted) lg:flex" data-slot="topbar-breadcrumb">
+                        <nav
+                            aria-label="Breadcrumb"
+                            className="hidden items-center gap-2 text-xs text-(--inlay-muted) lg:flex"
+                            data-slot="topbar-breadcrumb"
+                        >
                             <span>Workspace</span>
                             <span aria-hidden="true">/</span>
-                            <strong className="font-semibold text-(--inlay-text)">Administration</strong>
+                            <strong className="font-semibold text-(--inlay-text)">
+                                Administration
+                            </strong>
                         </nav>
                     ),
                     headerEnd: (
