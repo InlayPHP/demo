@@ -29,10 +29,22 @@ User resource with create/edit/delete, theming, and the Media Manager. The
 generated application code remains editable; package code stays in `vendor/`
 and `node_modules/`.
 
-This demo also registers a small Blog resource at `/admin/blogs`. Its create and
-edit screens use the Forms package, its list screen uses the Tables package, and
-its centralized `BlogRules` class keeps validation in application code. It is a
-compact example of the workflow a real Laravel resource can grow into.
+This demo also registers a PHP-authored showcase across three navigation groups:
+
+- **Shop** — products, product categories, brands, customers, and orders (status
+  tabs, money columns,
+  repeatable line items, filters, badges, and order detail infolists).
+- **Blog** — posts, authors, and categories (content forms, status views,
+  searchable tables, copyable slugs, and read-only detail pages).
+- **HR & projects** — departments, employees, projects, tasks, timesheets,
+  leave requests, and expenses (checkbox skill lists, key/value metadata,
+  repeatable plans and expense lines, workflow tabs, and central validation).
+
+Every resource uses the shared Inlay resource pages and renderer contracts. The
+React files under `resources/js/pages/inlay/resource/` are intentionally generic
+mount points; the schema, table, infolist, actions, authorization, validation,
+navigation group, and seeded data are all defined in PHP. `ShowcaseRules` is an
+application example, not a package rule set.
 
 The public demo adds two standalone examples outside the panel:
 
@@ -42,8 +54,12 @@ The public demo adds two standalone examples outside the panel:
 Those package examples, together with the GitHub source link, are grouped under
 **Package demos** in the panel navigation and open in a new browser tab.
 
-The landing page links to those examples, the complete panel, and the Inlay
-source repository. CMS packages are intentionally excluded.
+The dashboard widgets are also resolved from PHP and include stats, charts, and
+recent blog/order tables. CMS packages are intentionally excluded from this
+demo so the admin surface stays focused on the core Inlay experience. The
+default Media Manager seed includes a text asset and two SVG dashboard assets,
+so the picker and delivery routes have useful content immediately after
+`migrate --seed`.
 
 ## Demo login
 

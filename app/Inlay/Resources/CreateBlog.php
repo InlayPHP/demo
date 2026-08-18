@@ -10,5 +10,5 @@ final class CreateBlog extends CreateRecord
 {
     protected static string $resource = BlogResource::class;
 
-    protected static string $component = 'blogs/form';
+    protected static string $component = 'inlay/resource/form';
 }

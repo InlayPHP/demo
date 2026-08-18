@@ -26,15 +26,15 @@ class UserManagementTest extends TestCase
                 ->where('inlayPanel.navigationGroups', function ($groups): bool {
                     $examples = collect($groups)->firstWhere('name', 'examples');
                     $items = collect($examples['items'] ?? [])->keyBy('name');
-                    $resources = collect($groups)->firstWhere('name', 'resources');
+                    $resourceItems = collect($groups)
+                        ->flatMap(fn (array $group): array => $group['items'] ?? [])
+                        ->keyBy('name');
 
                     return $items['forms-demo']['openInNewTab'] === true
                         && $items['tables-demo']['openInNewTab'] === true
                         && $items['source']['openInNewTab'] === true
-                        && collect($resources['items'] ?? [])->contains(fn (array $item): bool => $item['name'] === 'resource-users'
-                            && $item['url'] === '/admin/users')
-                        && collect($resources['items'] ?? [])->contains(fn (array $item): bool => $item['name'] === 'resource-blogs'
-                            && $item['url'] === '/admin/blogs');
+                        && $resourceItems['resource-users']['url'] === '/admin/users'
+                        && $resourceItems['resource-blogs']['url'] === '/admin/blogs';
                 }));
     }
 

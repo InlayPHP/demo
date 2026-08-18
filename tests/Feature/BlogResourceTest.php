@@ -20,14 +20,14 @@ class BlogResourceTest extends TestCase
         $this->get(route('inlay.admin.blogs.index'))
             ->assertOk()
             ->assertInertia(fn (Assert $page) => $page
-                ->component('blogs/index')
+                ->component('inlay/resource/index')
                 ->where('table.contract', 'inlay.tables.v1')
                 ->where('resource.slug', 'blogs'));
 
         $this->get(route('inlay.admin.blogs.create'))
             ->assertOk()
             ->assertInertia(fn (Assert $page) => $page
-                ->component('blogs/form')
+                ->component('inlay/resource/form')
                 ->where('form.contract', 'inlay.forms.v1')
                 ->where('form.method', 'post'));
 
@@ -47,7 +47,7 @@ class BlogResourceTest extends TestCase
         $this->get(route('inlay.admin.blogs.edit', $post))
             ->assertOk()
             ->assertInertia(fn (Assert $page) => $page
-                ->component('blogs/form')
+                ->component('inlay/resource/form')
                 ->where('form.method', 'patch')
                 ->where('form.data.title', 'A New Inlay Post'));
 
