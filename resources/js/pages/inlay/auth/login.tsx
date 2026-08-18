@@ -33,14 +33,43 @@ function value(
 function themeStyle(inlayPanel: PanelResource): CSSProperties {
     const light = inlayPanel.theme;
     const dark = { ...light, ...(inlayPanel.darkTheme ?? {}) };
+    const recipes = recipeVariables({
+        contract: 'inlay.themes.v1',
+        name: inlayPanel.themeName ?? 'default',
+        tokens: light,
+        darkTokens: inlayPanel.darkTheme ?? {},
+    });
+    const semanticTokens = new Set([
+        'accent',
+        'accent-foreground',
+        'background',
+        'surface',
+        'surface-muted',
+        'foreground',
+        'muted',
+        'border',
+        'control-border',
+        'hover',
+        'badge',
+        'danger',
+        'danger-surface',
+        'success',
+        'success-surface',
+        'warning',
+        'warning-surface',
+        'info',
+        'info-surface',
+        'overlay',
+        'scrim',
+    ]);
+    const recipeOnly = Object.fromEntries(
+        Object.entries(recipes).filter(
+            ([name]) => !semanticTokens.has(name.replace('--inlay-', '')),
+        ),
+    );
 
     return {
-        ...recipeVariables({
-            contract: 'inlay.themes.v1',
-            name: inlayPanel.themeName ?? 'default',
-            tokens: light,
-            darkTokens: inlayPanel.darkTheme ?? {},
-        }),
+        ...recipeOnly,
         '--inlay-light-accent': value(light, 'accent', '#047857'),
         '--inlay-light-accent-foreground': value(
             light,

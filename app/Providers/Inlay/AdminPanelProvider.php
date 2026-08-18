@@ -4,7 +4,21 @@ declare(strict_types=1);
 
 namespace App\Providers\Inlay;
 
+use App\Inlay\Resources\Blog\AuthorResource;
+use App\Inlay\Resources\Blog\CategoryResource;
 use App\Inlay\Resources\BlogResource;
+use App\Inlay\Resources\Hr\DepartmentResource;
+use App\Inlay\Resources\Hr\EmployeeResource;
+use App\Inlay\Resources\Hr\ExpenseResource;
+use App\Inlay\Resources\Hr\LeaveRequestResource;
+use App\Inlay\Resources\Hr\ProjectResource;
+use App\Inlay\Resources\Hr\TaskResource;
+use App\Inlay\Resources\Hr\TimesheetResource;
+use App\Inlay\Resources\Shop\BrandResource;
+use App\Inlay\Resources\Shop\CustomerResource;
+use App\Inlay\Resources\Shop\OrderResource;
+use App\Inlay\Resources\Shop\ProductCategoryResource;
+use App\Inlay\Resources\Shop\ProductResource;
 use App\Inlay\Resources\UserResource;
 use App\Inlay\Widgets\AdminDashboardWidgets;
 use Inlay\MediaManager\MediaManagerPlugin;
@@ -36,7 +50,7 @@ final class AdminPanelProvider extends PanelProvider
             ->breadcrumbs()
             ->topbar()
             ->spa()
-            ->globalSearch(false)
+            ->globalSearch()
             ->middleware(['web'])
             ->authMiddleware(['auth'])
             ->loginComponent('inlay/auth/login')
@@ -45,9 +59,27 @@ final class AdminPanelProvider extends PanelProvider
             ->resources([
                 UserResource::class,
                 BlogResource::class,
+                ProductResource::class,
+                CustomerResource::class,
+                OrderResource::class,
+                BrandResource::class,
+                ProductCategoryResource::class,
+                AuthorResource::class,
+                CategoryResource::class,
+                DepartmentResource::class,
+                EmployeeResource::class,
+                ProjectResource::class,
+                LeaveRequestResource::class,
+                ExpenseResource::class,
+                TaskResource::class,
+                TimesheetResource::class,
             ])
             ->widget(AdminDashboardWidgets::class)
             ->navigationGroups([
+                NavigationGroup::make('Shop')->label('Shop')->icon('shopping-bag')->sort(10),
+                NavigationGroup::make('Blog')->label('Blog')->icon('newspaper')->sort(20),
+                NavigationGroup::make('HR')->label('HR & projects')->icon('briefcase-business')->sort(30),
+                NavigationGroup::make('Administration')->label('Administration')->icon('settings')->sort(40),
                 NavigationGroup::make('examples')
                     ->label('Package demos')
                     ->icon('braces')

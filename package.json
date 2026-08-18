@@ -37,6 +37,7 @@
         "@inlayphp/actions-react": "^0.3.10",
         "@inlayphp/core": "^0.3.10",
         "@inlayphp/forms-react": "^0.3.10",
+        "@inlayphp/infolists-react": "^0.3.10",
         "@inlayphp/media-manager-react": "^0.3.10",
         "@inlayphp/notifications": "^0.3.10",
         "@inlayphp/notifications-react": "^0.3.10",

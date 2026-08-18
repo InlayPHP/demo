@@ -35,6 +35,8 @@ class DashboardTest extends TestCase
                         'overview',
                         'content-activity',
                         'recent-posts',
+                        'recent-orders',
+                        'people-workload',
                     ];
                 }));
     }

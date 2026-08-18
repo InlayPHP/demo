@@ -24,6 +24,10 @@ final class UserResource extends Resource
 
     protected static ?string $navigationIcon = 'users';
 
+    protected static ?string $navigationGroup = 'Administration';
+
+    protected static int $navigationSort = 10;
+
     public static function globallySearchableAttributes(): array
     {
         return ['name', 'email'];

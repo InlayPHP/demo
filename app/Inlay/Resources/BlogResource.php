@@ -14,6 +14,8 @@ use Inlay\Forms\Fields\Textarea;
 use Inlay\Forms\Fields\TextInput;
 use Inlay\Forms\Fields\Toggle;
 use Inlay\Forms\Form;
+use Inlay\Infolists\Entries\TextEntry;
+use Inlay\Infolists\Infolist;
 use Inlay\Resources\Resource;
 use Inlay\Resources\ResourceOperation;
 use Inlay\Schemas\Components\Grid;
@@ -31,6 +33,10 @@ final class BlogResource extends Resource
     protected static ?string $pluralLabel = 'Blog posts';
 
     protected static ?string $navigationIcon = 'newspaper';
+
+    protected static ?string $navigationGroup = 'Blog';
+
+    protected static int $navigationSort = 30;
 
     public static function globallySearchableAttributes(): array
     {
@@ -72,6 +78,10 @@ final class BlogResource extends Resource
                     ->sortable(),
             ])
             ->actions([
+                Action::make('view')
+                    ->label('View')
+                    ->url('/admin/blogs/{id}')
+                    ->method('get'),
                 Action::make('edit')
                     ->label('Edit')
                     ->url('/admin/blogs/{id}/edit')
@@ -139,11 +149,25 @@ final class BlogResource extends Resource
         return BlogRules::class;
     }
 
+    public static function infolist(Infolist $infolist): Infolist
+    {
+        return $infolist->columns(2)->schema([
+            TextEntry::make('title')->label('Title')->columnSpanFull(),
+            TextEntry::make('slug')->copyable(),
+            TextEntry::make('status')->badge()->color('success'),
+            TextEntry::make('published_at')->dateTime('M j, Y H:i')->placeholder('Not published'),
+            TextEntry::make('featured')->badge()->color('warning'),
+            TextEntry::make('excerpt')->columnSpanFull()->wrap(),
+            TextEntry::make('body')->label('Body')->prose()->columnSpanFull(),
+        ]);
+    }
+
     public static function getPages(): array
     {
         return [
             'index' => ListBlogs::route('/'),
             'create' => CreateBlog::route('/create'),
+            'view' => ViewBlog::route('/{record}'),
             'edit' => EditBlog::route('/{record}/edit'),
         ];
     }
