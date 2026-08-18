@@ -52,7 +52,7 @@ export default function Dashboard() {
     return (
         <InlayPanelLayout>
             <Head title="Inlay panel" />
-            <div className="mx-auto max-w-6xl space-y-8">
+            <div className="mx-auto w-full max-w-[1600px] space-y-8">
                 <header className="flex flex-col gap-5 border-b border-(--inlay-border) pb-7 sm:flex-row sm:items-end sm:justify-between">
                     <div>
                         <p className="font-medium text-(--inlay-accent)">
