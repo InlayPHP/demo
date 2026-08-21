@@ -9,6 +9,7 @@ use App\Validation\UserRules;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Inlay\Actions\Action;
+use Inlay\Actions\ActionGroup;
 use Inlay\Forms\Fields\TextInput;
 use Inlay\Forms\Form;
 use Inlay\Resources\Resource;
@@ -51,17 +52,22 @@ final class UserResource extends Resource
                     ->sortable(),
             ])
             ->actions([
-                Action::make('edit')
-                    ->label('Edit')
-                    ->url('/admin/users/{id}/edit')
-                    ->method('get'),
-                Action::make('delete')
-                    ->label('Delete')
-                    ->color('danger')
-                    ->url('/admin/users/{id}')
-                    ->method('delete')
-                    ->requiresConfirmation()
-                    ->authorizeUsing(fn (Request $request, User $record): bool => ! $record->is($request->user())),
+                ActionGroup::make('row_actions', [
+                    Action::make('edit')
+                        ->label('Edit')
+                        ->url('/admin/users/{id}/edit')
+                        ->method('get'),
+                    Action::make('delete')
+                        ->label('Delete')
+                        ->color('danger')
+                        ->url('/admin/users/{id}')
+                        ->method('delete')
+                        ->requiresConfirmation()
+                        ->authorizeUsing(fn (Request $request, User $record): bool => ! $record->is($request->user())),                ])
+                    ->icon('ellipsis-vertical')
+                    ->iconButton()
+                    ->tooltip('Row actions')
+                    ->dropdownPlacement('left-start'),
             ])
             ->paginationPageOptions([10, 25, 50])
             ->emptyState('No users found', 'Create the first account for this panel.');

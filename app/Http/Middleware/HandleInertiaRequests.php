@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;
+use Inlay\Notifications\NotificationManager;
 use Inlay\PanelRegistry;
 
 class HandleInertiaRequests extends Middleware
@@ -48,6 +49,25 @@ class HandleInertiaRequests extends Middleware
                 return is_string($panel)
                     ? app(PanelRegistry::class)->get($panel)
                     : null;
+            },
+            'inlayNotifications' => function () use ($request): ?array {
+                $user = $request->user();
+                if ($user === null) {
+                    return null;
+                }
+
+                $manager = app(NotificationManager::class);
+                $toasts = $manager->pull();
+                $all = $manager->databaseNotifications($user, unreadOnly: false, limit: 50);
+
+                return [
+                    'all' => $all,
+                    'toasts' => $toasts,
+                    'unread' => array_values(array_filter(
+                        $all,
+                        static fn (array $record): bool => $record['read_at'] === null,
+                    )),
+                ];
             },
             'flash' => [
                 'success' => fn (): ?string => $request->session()->get('success'),
